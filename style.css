@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    box-shadow: 4px 4px 12px 7px rgb(24, 22, 22);
+    margin: 20px auto;
+    background-color: lightseagreen;
+    border-radius: 30px;
+}
+
+.card :hover {
+    background-color: lightblue;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    padding: 3px 100px;
+    border-radius: 300px;
+}
+
+.form {
+    /* background-color: blue; */
+    text-transform: capitalize;
+    font-weight: 900;
+    font-style: italic;
+    margin: 25px 10px;
+    border-radius: 50px;
+}
+
+.h-4 {
+    height: 30px;
+    width: 350px;
+    margin: 5px 1px;
+}
+
+.h-5 {
+    font-weight: 900;
+    font-style: italic;
+    text-transform: capitalize;
+    margin: 30px 10px;
+}
+
+.h-6 {
+    background-color: green;
+    color: white;
+    padding: 10px 160px;
+    box-shadow: 5px 3px black;
+    border-radius: 10px;
+}
+
+.h-6:hover {
+    background-color: brown;
+}
+
+.h-7 {
+    height: 40px;
+    width: 70px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
